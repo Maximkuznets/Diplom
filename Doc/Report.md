@@ -13,6 +13,16 @@
  
 ## Отчёт Allure Report:
 ![](https://github.com/Maximkuznets/Diplom/blob/master/Doc/Allure%20Report.png)
+
+### Список найденных дефектов:
+* [При вводе не валидного номера карты задваиваюся всплывающие окна](https://github.com/Maximkuznets/Diplom/issues/7)
+* [При вводе валидного номера карты после удаления не валидного не пропадает надпись “Неверный формат”](https://github.com/Maximkuznets/Diplom/issues/6)
+* [При вводе в поле “Месяц” одного числа отображается надпись “Неверный формат”](https://github.com/Maximkuznets/Diplom/issues/5)
+* [При вводе в поле “Месяц” 2-х нулей не отображается надпись “Неверный формат”](https://github.com/Maximkuznets/Diplom/issues/4)
+* [При оплате картой со статусом "DECLINED" появляется всплывающее окно "Успешно"](https://github.com/Maximkuznets/Diplom/issues/3)
+* [При вводе в поле “Владелец” цифр появляется всплывающее окно "Успешно Операция одобрена банком"](https://github.com/Maximkuznets/Diplom/issues/2)
+* [Ошибка в слове "Марракеш"](https://github.com/Maximkuznets/Diplom/issues/1)
+
 ### Общие рекомендации:
 * устранить возможность оплаты картой со статусом "DECLINED"
 * настроить вывод более информативных сообщений пользователю при заполнении полей формы оплаты.

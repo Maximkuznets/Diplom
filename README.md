@@ -8,5 +8,5 @@
 - для БД MySQL запустить команду: java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:mysql://localhost:3306/app;
 
 - для БД данных PostgreSQL запустить команду: java -jar artifacts/aqa-shop.jar -Dspring.datasource.url=jdbc:postgresql://localhost:5432/postgres.
-5. Запустить тесты командой: .\gradlew test
+5. Запустить тесты командой: ./gradlew test
 6. Сформировать отчет Allure Report, выполнив команду: ./gradlew allureServe
